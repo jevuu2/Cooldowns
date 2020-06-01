@@ -455,6 +455,20 @@ function Cool.GetSetData()
             texture = "/esoui/art/icons/ability_mage_044.dds",
             showFrame = true,
         },
+        -- ["Hollowfangs Thirst"] ={
+        [452] = {
+            procType = "set",
+            event = EVENT_COMBAT_EVENT,
+            description = "Displays when the bubble is about to burst.",
+            id = {
+                126924, -- the fuck
+                126938, -- is this?!
+            },
+            result = ACTION_RESULT_ABILITY_ON_COOLDOWN,
+            cooldownDurationMs = 9000,
+            texture = "/esoui/art/icons/ability_mage_065.dds", -- much like the addons author, this looks rancid AF
+            showFrame = true,
+        },
 
         -- Synergies --------------------------------------------------------------
         ["Orbs / Shards"] = {
