@@ -455,6 +455,16 @@ function Cool.GetSetData()
             texture = "/esoui/art/icons/ability_mage_044.dds",
             showFrame = true,
         },
+        -- ["Selene"] = {
+        [279]= {
+            procType = "set",
+            event = EVENT_COMBAT_EVENT,
+            description = "Displays how long the bear's in hibernation.",
+            id = 80600,
+            result = ACTION_RESULT_ABILITY_ON_COOLDOWN,
+            cooldownDurationMs = 4000,
+            texture = "/esoui/art/icons/ability_mageguild_002.dds",
+        },
 
         -- Synergies --------------------------------------------------------------
         ["Orbs / Shards"] = {
